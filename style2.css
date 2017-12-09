@@ -1,0 +1,38 @@
+/* -------- CSS Reset  ----------*/
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  border: 1px solid rgb(220,220,220);
+}
+
+/* -------- Universal Styles ----------*/
+/* Eg padding on your sections, utility classes, etc */
+
+header,
+footer,
+.banner,
+.small-banner {
+  padding: 5%;
+}
+
+.padded {
+  padding: 3%;
+}
+
+
+/* -------- Typography  ----------*/
+
+/* -------- Banners & Background Images  ----------*/
+
+[class*='bg'],
+.banner, 
+.small-banner {
+  background-color: rgb(200,200,200);
+}
+
+/* -------- Testimonial Section  ----------*/
+
+/* -------- Footer  ----------*/
+
+/* -------- Contact Form  ----------*/
