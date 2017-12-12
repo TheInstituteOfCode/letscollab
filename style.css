@@ -238,6 +238,13 @@ footer a:hover {
     padding-bottom: 20%;
     border: 2px solid white;
     background-size: cover;
+    background-position: cover;
+}
+
+@media(max-width: 678px) {
+    .bg-image {
+        padding-bottom: 40%;
+    }
 }
 
 /* Contact Form */
