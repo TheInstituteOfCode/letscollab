@@ -251,6 +251,8 @@ footer a:hover {
 
 form {
   padding: 1rem 0;
+  max-width:700px;
+  margin:auto;
 }
 
 form label {
@@ -276,7 +278,7 @@ form textarea {
   margin-bottom: 1rem;
   border: 2px solid rgb(220, 220, 220);
   border-radius: 2px;
-  min-width: 50%;
+  width: 100%;
   font-family: inherit;
 }
 
