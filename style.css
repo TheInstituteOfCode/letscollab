@@ -241,10 +241,14 @@ footer a:hover {
     background-position: cover;
 }
 
+.mob-show {display:none;}
+
 @media(max-width: 678px) {
     .bg-image {
         padding-bottom: 40%;
     }
+    .mob-show {display:block;}
+    .mob-hide {display:none!important;}
 }
 
 /* Contact Form */
