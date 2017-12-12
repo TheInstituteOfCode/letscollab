@@ -234,6 +234,12 @@ footer a:hover {
 }
 
 
+.bg-image {
+    padding-bottom: 20%;
+    border: 2px solid white;
+    background-size: cover;
+}
+
 /* Contact Form */
 
 form {
